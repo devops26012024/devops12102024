@@ -1,0 +1,14 @@
+name: 'My Custom Action'
+description: 'Testing nodejs in actions'
+author: 'Pradeep'
+inputs:
+  name: 
+    desciption: 'Pradeep'
+    required: true 
+    default: 'world'
+outputs:
+  greeting:
+    description: 'Hello World' 
+runs:
+  using: 'node12'
+  main: 'index.js'
